@@ -126,7 +126,7 @@ class StudentModel {
 		})
 
 		if (!student)
-			throw('No student with this id');
+			throw(['No student with this id']);
 
 		return student;
 	}
@@ -174,7 +174,7 @@ class StudentModel {
 		})
 
 		if (!student)
-			throw('No student with this id');
+			throw(['No student with this id']);
 		
 
 
